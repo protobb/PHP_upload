@@ -4,7 +4,9 @@
     <title>Test01</title>
 </head>
 <body>
-    Test02
+    <form action="upload.php" method="POST" enctype="multipart/form-data">
+        <input type="file" name="file">
+    </form>
 
 </body>
 
